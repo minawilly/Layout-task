@@ -1,0 +1,76 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+main{
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+}
+.col1{
+    padding: 2em;
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    height: 380px;
+}
+.col2{
+    padding: 2em;
+    background-color: hsl(184, 100%, 22%);
+    height: 380px;
+}
+.col3{
+    padding: 2em;
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    height: 380px;
+}
+button{
+    background-color: hsl(0, 0%, 95%);
+    padding: 10px 30px;
+    border-radius: 24px;
+}
+h2{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    font-stretch: ultra-condensed;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lexend Deca';
+}
+.col1 button{
+    color:  hsl(31, 77%, 52%);
+}
+.col2 button{
+    color: hsl(184, 100%, 22%);
+}
+.col3 button{
+    color: hsl(179, 100%, 13%);
+}
+.col1 button:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    border: 1.5px solid white;
+}
+.col2 button:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    border: 1.5px solid white;
+}
+.col3 button:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    border: 1.5px solid white;
+}
